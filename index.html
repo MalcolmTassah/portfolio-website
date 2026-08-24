@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malcolm-tech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    
+    <header class="header"> 
+        <a href="#" class="logo"><span>Malcolm Tassah</span></a>
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#experiences">Experiences</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <a href="https://github.com/MalcolmTassah" target="_blank" class="visit-btn">Visit Github</a>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="IMG_20220710_212950_471.jpg" alt="picture of Malcolm Tassah">
+            
+            <div class="info-box">
+                
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h2>Malcolm Tassah</h2>
+                    <span> CIT Student | Software Developer</span>
+                </div>
+                
+                <div class="btn-group">
+                    <a href="Malcolm Tassah Resume -- Technology.pdf" download class="btn">Download Resume</a>
+                    <a href="#contact" class="btn">Contact</a>
+                </div>
+
+                <div class="socials">
+                    <a href="https://github.com/MalcolmTassah" target="_blank" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/malcolm-tassah" target="_blank" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+
+            </div> 
+
+        </div>
+    </section>
+
+    <section id="experiences" class="experiences">
+        
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-info">
+            <div class="grid">
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Web Development Intern</span>
+                    <h4>Benschop Sign & Charpenter, LLC • Jul 2024 - Mar 2025</h4>
+                    <p>Worked on BSC's production website using HTML, CSS and JavaScript while collaborating through tools such as Bitbucket and Jira. I reviewed existing pages for usability and performance issues, implemented approved improvements, and gained experience navigating and modifying an existing production codebase.</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <span>Information Technology Admin Intern</span>
+                    <h4>Medtronic • Sep 2021 - Aug 2022</h4>
+                    <p>Worked alongside cross-functional teams on enterprise IT initiatives at Medtronic, including Global IT Portfolio Operations (GPO), which supported the management of IT projects, contracts, and budgets. I also developed internal training resources and created an Excel dashboard to track stakeholder training, participation, and engagement.</p>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Recent Projects</h2>
+      <!-- demo vid-->
+        <div class="demo-modal" id="demo-modal"> 
+            <div class="demo-content">
+
+                <button class="close-demo" id="close-demo">&times;</button>
+
+                <iframe
+                    id="demo-video"
+                    src=""
+                    title="Project Demo"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+
+            </div>
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="projects-card">
+                <img src="Screenshot 2026-08-23 201206.png" alt="project1--porfolio.jpg">
+                <h3>Password Manager Desktop Application</h3>
+                <p>A desktop password manager built with C#, Windows Forms, and SQL that securely stores and retrieves user credentials. My primary contribution focused on application security, implementing AES encryption to protect sensitive information stored in the database and decrypting it when retrieved by the user.</p>
+                <div class="btn-group">
+                    <button
+                        class="btn demo-btn"
+                        data-video="https://www.youtube.com/embed/m7onbGe728I">
+                        View Demo
+                    </button>
+                    <a href="https://github.com/MalcolmTassah/Password-Manageger" target="_blank" class="btn">Github Repo</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="contacts" id="contact">
+        <div class="input-box">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="contact-text">
+                Feel free to reach out if you'd like to connect or discuss an opportunity.
+            </p>
+
+            <div class="btn-group">
+                <a href="mailto:maltassah@gmail.com" class="btn">
+                    <i class="fa-solid fa-envelope"></i>
+                    Email Me
+                </a>
+
+                <button class="btn" id="copy-email">
+                    <i class="fa-solid fa-copy"></i>
+                    Copy Email
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experiences">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contacts</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© All Rights Reserved | Malcolm Tassah</p>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
